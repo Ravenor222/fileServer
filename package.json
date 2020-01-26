@@ -1,0 +1,26 @@
+{
+  "name": "fileserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fileServer.js",
+  "scripts": {
+    "start": "./node_modules/.bin/nodemon -L fileServer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ravenor222/fileServer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ravenor222/fileServer/issues"
+  },
+  "homepage": "https://github.com/Ravenor222/fileServer#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
